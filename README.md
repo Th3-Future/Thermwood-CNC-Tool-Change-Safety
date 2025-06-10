@@ -10,7 +10,8 @@ How to use these Macros:-
 Step 1: Create a folder called toolChangeSafty in C:\System
 step 2: Download all files excepting the two *.sub (i.e PRETOOLCHANGESAFTY.SUB & TOOLCHANGESAFTY.SUB) files from this repo 
 step 3: Copy these downloaded files to the newly created folder (C:\System\toolChangeSafty)
-step 4:
+step 4: Find where a folder called "SUBS" is located on your Thermowood Computer. Mine was located at D:\Data\SUBS
+Step 5: Download and copy the two *.sub (i.e PRETOOLCHANGESAFTY.SUB & TOOLCHANGESAFTY.SUB) files into this SUBS folder
 
 
 
