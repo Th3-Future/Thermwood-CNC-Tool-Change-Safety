@@ -12,8 +12,17 @@ step 2: Download all files excepting the two *.sub (i.e PRETOOLCHANGESAFTY.SUB &
 step 3: Copy these downloaded files to the newly created folder (C:\System\toolChangeSafty)  
 step 4: Find where a folder called "SUBS" is located on your Thermowood Computer. Mine was located at D:\Data\SUBS  
 Step 5: Download and copy the two *.sub (i.e PRETOOLCHANGESAFTY.SUB & TOOLCHANGESAFTY.SUB) files into this SUBS folder  
-Step 6: Download and copy the two *.sub (i.e PRETOOLCHANGESAFTY.SUB & TOOLCHANGESAFTY.SUB) files into this SUBS folder  
-
+Step 6: Go to the Control Nesting > click on the settings tab > click on the Tool change pre/post Macros button > then copy the below text and past there:  
+  % START OF PRE TOOL CHANGE MACRO
+  M98PPRETOOLCHANGESAFTY.SUBL1
+  % PLEASE CHECK IF PRETOOLCHANGESAFTY.SUB IS IN D:\data\SUBS
+  % END OF PRE TOOL CHANGE MACRO
+  
+  % START OF POST TOOL CHANGE MACRO
+  M98PTOOLCHANGESAFTY.SUBL1
+  % PLEASE CHECK IF TOOLCHANGESAFTY.SUB IS IN D:\data\SUBS
+  % END OF POST TOOL CHANGE MACRO
+Step 7: Go to the Control Nesting > click on the settings tab > click on the Tool change pre/post Macros button > then copy the below text and past there:  
 
 
 
