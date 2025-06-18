@@ -13,7 +13,7 @@ step 3: Copy these downloaded files to the newly created folder (C:\System\toolC
 step 4: Find where a folder called "SUBS" is located on your Thermowood Computer. Mine was located at D:\Data\SUBS  
 Step 5: Download and copy the two *.sub (i.e PRETOOLCHANGESAFTY.SUB & TOOLCHANGESAFTY.SUB) files into this SUBS folder  
 Step 6: Go to the Control Nesting > click on the settings tab > click on the Tool change pre/post Macros button > then copy the below text and past there:  
- $${\color{lightgreen}Light \space Green}$$  % START OF PRE TOOL CHANGE MACRO
+ $${\color{lightgreen}  % START OF PRE TOOL CHANGE MACRO
   M98PPRETOOLCHANGESAFTY.SUBL1
   % PLEASE CHECK IF PRETOOLCHANGESAFTY.SUB IS IN D:\data\SUBS
   % END OF PRE TOOL CHANGE MACRO
@@ -21,6 +21,7 @@ Step 6: Go to the Control Nesting > click on the settings tab > click on the Too
   M98PTOOLCHANGESAFTY.SUBL1
   % PLEASE CHECK IF TOOLCHANGESAFTY.SUB IS IN D:\data\SUBS
   % END OF POST TOOL CHANGE MACRO
+  }$$
 Step 7: ok the settimgs for the default tool group and also add to all the tool groups you might have setup.
 
 Thats all, now you can test that it works by switch the tool number in a program to a different tool number that was previously on the same tool changer position.  
