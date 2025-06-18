@@ -31,4 +31,4 @@ If all goes well you will see a warning message, alerting the programmer to the 
 
 
 
-# all glory to my God through our Lord Jesus Christ !!!
+# all glory to God through our Lord Jesus Christ !!!
